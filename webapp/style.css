@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f0f1a;
+    color: white;
+}
+
+.app {
+    padding: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.btn {
+    background: #7b5cff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.live {
+    margin: 15px 0;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.big {
+    height: 100px;
+}
+
+.blue {
+    background: linear-gradient(45deg, #4facfe, #00f2fe);
+}
+
+.orange {
+    background: linear-gradient(45deg, #f7971e, #ffd200);
+}
+
+.purple {
+    background: linear-gradient(45deg, #a044ff, #6a3093);
+    width: 48%;
+}
+
+.green {
+    background: linear-gradient(45deg, #56ab2f, #a8e063);
+    width: 48%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #1a1a2e;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.navbar div {
+    text-align: center;
+    font-size: 12px;
+}
+
+.active {
+    color: #7b5cff;
+}
